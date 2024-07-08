@@ -1,0 +1,15 @@
+.text {
+letter-spacing: 4px; 
+
+text-decoration: line-through ;
+
+border: 3px #b90404 dashed;
+}
+
+
+.Block {
+    text-indent: 25px;
+
+    text-transform: capitalize ;
+}
+

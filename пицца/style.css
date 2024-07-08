@@ -1,0 +1,357 @@
+p, h1, h3, h6 {
+    margin: 0px;
+}
+.Logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.Page {
+    width: 89.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(17, 17, 17);
+}
+.PageOrang {
+    width: 89.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color:rgb(240, 85, 16);
+}
+.PageLogo {
+    width: 64px;
+    height: 32px;
+
+
+}
+.BlockPages {
+    display: flex;
+    align-items: center;
+}
+.main {
+    width: 100%;
+    height: 1015.14px;
+    background-color:rgb(229, 229, 229);
+}
+.Menu-Text {
+    color:rgb(241, 44, 14);
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 57px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.Promo {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 20px;
+    width: 500px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;   
+    margin-bottom: 0px; 
+    font-size: 16px;
+    font-style: italic;
+}
+.promo2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+body {
+    margin: 0px;
+}
+.conteiner {
+    width: 555px;
+    height: 309px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 20px;
+}
+.photo {
+    width: 255px;
+    height: 249px;
+    margin-left: 30px;
+}
+.title-pizza {
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    color: #111111;
+    text-align: left;
+    margin: 20px 0px 0px;
+}
+.block-text-pizza {
+    width: 255px;
+    height: 249px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.about-pizza {
+    margin: 20px 0px 0px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #111111;
+    font-style: italic;
+}
+.price {
+    margin: 20px 0px 0px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    width: 220px;
+    height: 21.59px;
+    color: rgb(241, 44, 14);
+}
+.block-button {
+    width: 216.09px;
+    height: 42.39px;
+    background-color: rgb(229, 229, 229);
+    margin: 20px 0px 0px;
+    display: flex;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #111111;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner2 {
+    width: 555px;
+    height: 309px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 20px;
+}
+.containerpizza12 {
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content: center;
+    width: 1200px;
+    
+}
+.photo2 {
+    width: 255px;
+    height: 249px;
+    margin-left: 30px;
+}
+.title-pizza2 {
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    color: #111111;
+    text-align: left;
+    margin: 20px 0px 0px;
+}
+.block-text-pizza2 {
+    width: 255px;
+    height: 249px;
+    padding-left: 25px;
+    padding-right: 25px; 
+}
+.about-pizza2 {
+    margin: 20px 0px 0px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #111111;
+    font-style: italic;
+}
+.price2 {
+    margin: 20px 0px 0px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    width: 220px;
+    height: 21.59px;
+    color: rgb(241, 44, 14);
+}
+.block-button2 {
+    width: 216.09px;
+    height: 42.39px;
+    background-color: rgb(229, 229, 229);
+    margin: 20px 0px 0px;
+    display: flex;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #111111;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner3 {
+    width: 555px;
+    height: 309px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 20px;
+}
+.photo3 {
+    width: 255px;
+    height: 249px;
+    margin-left: 30px;
+}
+.block-text-pizza3 {
+    width: 255px;
+    height: 249px;
+    padding-left: 25px;
+    padding-right: 25px; 
+}
+.title-pizza3 {
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    color: #111111;
+    text-align: left;
+    margin: 20px 0px 0px;
+}
+.about-pizza3 {
+    margin: 20px 0px 0px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #111111;
+    font-style: italic;
+}
+.price3 {
+    margin: 20px 0px 0px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    width: 220px;
+    height: 21.59px;
+    color: rgb(241, 44, 14);
+}
+.block-button3 {
+    width: 216.09px;
+    height: 42.39px;
+    background-color: rgb(229, 229, 229);
+    margin: 20px 0px 0px;
+    display: flex;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #111111;
+    align-items: center;
+    justify-content: center;
+}
+.conteiner4 {
+    width: 555px;
+    height: 309px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin: 20px;
+}
+.photo4 {
+    width: 255px;
+    height: 249px;
+    margin-left: 30px;
+}
+.Logo2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 37px;
+    margin-right: 0.5px;
+}
+.text-logo2 {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #111111;
+}
+.text-logo3 {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color:  rgb(240, 85, 16);
+}
+.logotext3 {
+    width: 100%;
+    height: 165.17px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+}
+.logo-Text-Pizza {
+    text-align: center;
+    padding-top: 49px;
+    width: 417px;
+    color: rgb(255, 255, 255);
+}
+.pizzaglaw {
+    display: flex;
+    justify-content: center;
+}
+.logotext4 {
+    width: 100%;
+    height: 97.59px;
+    background-color:rgb(51, 51, 51); 
+    display: flex;
+    justify-content: center;
+    
+}
+.textlogopizza4 {
+    text-align: center;
+    color:  rgb(249, 185, 156); 
+    font-size: 12.8px;
+    font-family: "Open Sans", sans-serif;
+}
+a:visited {
+    color:rgb(249, 185, 156);    
+}
+.text-logo5 {
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.title-pizza4 {
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    color: #111111;
+    text-align: left;
+    margin: 20px;
+}
+.about-pizza4 {
+    margin: 20px 0px 0px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    color: #111111;
+    font-style: italic;
+    margin: 20px;
+}
+.price4 {
+    margin: 20px 0px 0px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    width: 220px;
+    height: 21.59px;
+    color: rgb(241, 44, 14);
+    margin: 20px;
+}
+.block-button4 {
+    width: 216.09px;
+    height: 42.39px;
+    background-color: rgb(229, 229, 229);
+    margin: 20px 0px 0px;
+    display: flex;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #111111;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}

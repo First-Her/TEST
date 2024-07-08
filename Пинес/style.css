@@ -1,0 +1,14 @@
+.block {
+    width: 1253px;
+    height: 57px;
+    background-color: #00E0FF;
+    border-radius: 50px;
+}
+.load {
+    width: 912px;
+    height: 57px;
+    background-color: #000AFF;
+    border-top-left-radius: 50px ;
+    border-bottom-left-radius: 50px;
+    box-shadow: 5px 0px 4px 0px #00000085;
+}

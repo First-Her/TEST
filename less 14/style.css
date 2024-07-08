@@ -1,0 +1,16 @@
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.block2 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: blue;
+
+}
