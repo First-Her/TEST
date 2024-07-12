@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.back {
+    background-color: #2b253c;;
+}
+.logo {
+    font-size: 48px;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    padding-top: 60px;
+    color: #ffffff;;
+}
+.logotext {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #ffffff;;
+    padding-top: 30px;
+    width: 800px;
+    line-height: 30px;
+}
+.logotextdvij {
+    display: flex;
+    justify-content: center;
+}
+.conteiner {
+    width: 366px;
+    height: 360px;
+    padding: 30px;
+    background-color: #f1c50e;
+    border-radius: 10px;
+}
+.logoconteiner1 {
+    font-size: 30px;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+}
+.textconteiner1 {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+.conteiner2 {
+    width: 366px;
+    height: 360px;
+    border-radius: 10px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/73962/images/crop-architect-opening-blueprint.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.conteiner3 {
+    width: 366px;
+    height: 360px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+}
+.conteiner4 {
+    width: 366px;
+    height: 360px;
+    border-radius: 10px;
+    border-radius: 10px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/73962/images/635.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.conteiner5 {
+    width: 366px;
+    height: 360px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+}
+.conteiner6 {
+    width: 366px;
+    height: 360px;
+    border-radius: 10px;
+    border-radius: 10px;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/73962/images/56444436.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 1450px;
+    gap: 20px;
+}
+.dvij {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.textlogo2 {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+    padding-bottom: 40px;
+}
+a:visited {
+    color: white 
+}
+.textlogo3 {
+    background-color: #333333;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+}
+.textlogo3 a:hover {
+    color: wheat;
+}
