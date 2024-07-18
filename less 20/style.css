@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.block-building-services {
+  width: 100%;
+  height: 819px;
+  background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/7cabfe7fef3752109c149cad/f46efb22-1445-4d8e-92cb-65094deefec9.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.block-building-services-container {
+  width: 511px;
+  height: 458px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 50px;
+}
+.block-building-services-logo-text {
+  font-size: 60px;
+  font-family: Oswald, sans-serif;
+  color: rgb(17, 17, 17);
+}
+.block-building-services-text {
+  font-size: 18px;
+  font-family: Open Sans, sans-serif;
+  color: rgb(51, 44, 41);
+  margin-top: 27px;
+}
+.block-building-services-text-freepik {
+  font-size: 18px;
+  font-family: Open Sans, sans-serif;
+  color: rgb(51, 44, 41);
+  padding-top: 35px;
+}
+.block-building-services-text-a {
+  color: rgb(51, 44, 41);
+  text-decoration: none;
+  border-bottom: 1px solid #000000;
+}
+.block-building-services-text-a:hover {
+  border-color: #f67a37;
+}
+.block-building-services-button {
+  width: 198px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #f67a37;
+  margin-top: 30px;
+  transition: all 3s ease;
+}
+.block-building-services-button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 2px 3px rgb(0 0 0 / 36%);
+  transform: scale(1.05);
+  color: #f67a37;
+  background-color:rgb(51, 44, 41); 
+} 
+.block-building-services-button-text {
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  align-items: center;
+}
+.block-building-services-container-main {
+  padding-top: 210px;
+  padding-left: 14%;
+}
+.community-spaces-main {
+  width: 100%;
+  height: 709px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.community-spaces-photo {
+  width: 260px;
+  height: 529px;
+  background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/fdd219b40ae95f12bea46316/vbvb-min.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+}
+.community-spaces-container {
+  width: 437px;
+  height: 589px;
+  padding: 30px;
+
+}
+.community-spaces-title-sample-text{
+  width: 377px;
+  height: 241px;
+  background-color: #f67a37;
+  padding: 20px;
+  border-radius: 20px;
+}
+.community-spaces-title {
+  font-size: 24px;
+  font-family: Open Sans, sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+.community-spaces-sample-text {
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  color: #ffffff;
+  margin-top: 20px;
+  word-wrap: break-word;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.community-spaces-text-Article {
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  text-align: left;
+  word-wrap: break-word;
+  color: #111111;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.community-spaces-learn-more-button {
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  color: #111111;
+  border-bottom: 1px solid #f67a37;
+  text-decoration: none;
+
+}
+.community-spaces-learn-more-button:hover {
+  cursor: pointer;
+  color: #f67a37;
+  border-color: #111111;
+}
+.block-building-services-text-freepik {
+  font-family: Open Sans, sans-serif;
+  font-size: 16px;
+  color: #111111;
+  padding-top: 90px;
+}
+.Build-container {
+  width: 380px;
+  height: 589px;
+  padding: 30px 30px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.Build-title {
+  font-size: 24px;
+  font-family: Open Sans, sans-serif;
+  color:  #ffffff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
+.build-title-text {
+  width: 320px;
+  height: 261px;
+  background-color:#292d33;
+  padding: 20px;
+  border-radius: 20px;
+}
+.our-company-main {
+  background-color: #292d33;
+  width: 100%;
+  height: 1106px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.our-company-container {
+  width: 438px;
+  height: 478px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-company-text {
+  font-family: Oswald, sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  word-wrap: break-word;
+  text-align: left;
+  line-height: 1.1;
+  color: #ffffff;
+}
+.our-company-text-freepik {
+  font-size: 1rem;
+  letter-spacing: 0px;
+  font-style: italic;
+  text-align: left;
+  margin: 30px auto 0 0;
+  word-wrap: break-word;
+  font-family: Open Sans, sans-serif;
+  color: #ffffff;
+}
+.our-company-text-a {
+  font-size: 16px;
+  font-family:  Open Sans, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid #ffffff;
+}
+.our-company-text-a:hover {
+  border-color: #f67a37;
+}
+.our-company-button {
+  width: 198px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #f67a37;
+  margin-top: 30px;
+  transition: all 3s ease;
+}
+.our-company-button-text {
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  align-items: center;
+}
+.our-company-button:hover{
+cursor: pointer;
+background-color:#fbc9ad;
+}
+.our-company-build {
+  width: 378px;
+  height: 311px;
+  padding: 30px;
+  background-color: #f67a37;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.our-company-photo {
+  background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/ace6dcba9ea85f2ca8708b45/mnmnmn-min.png);
+  width: 438px;
+  height: 676px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
+  object-fit: contain;
+  background-size: contain;
+}
+.our-company-text-massa {
+  width: 438px;
+  height: 290px;
+  background-color: #292d33;
+  padding: 30px;
+}
+.our-company-massa {
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  color: #ffffff;
+  line-height: 1.6;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+
+
