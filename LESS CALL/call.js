@@ -41,26 +41,111 @@ blocksmooth.innerHTML = "=";
 const blockplus = document.getElementById("btnplus");
 blockplus.innerHTML = "+";
 
-function sumNumbers(a,b) {
-    const sum=a+b;
-    return sum;
-}
-console.log(sumNumbers(10,10));
+let number = null;
+let action = null;
 
-function subNumbers(a,b) {
-    const sum=a-b;
-    return sum;
-}
-console.log(subNumbers(10,10));
 
-function multipNumbers(c,b) {
-    const sum=c*b;
-    return sum;
-}
-console.log(multipNumbers(5,7));
 
-function divNumbers(d,s) {
-    const sum=d/s;
-    return sum;
+blockdivision.addEventListener("click", function () {
+  action = blockdivision.innerHTML;
+  console.log(action, "click ÷");
+});
+
+blockmultiplication.addEventListener("click", function () {
+  action = blockmultiplication.innerHTML;
+  console.log(action, "click x");
+});
+
+blockminus.addEventListener("click", function () {
+  action = blockminus.innerHTML;
+  console.log(action, "click -");
+});
+
+blockplus.addEventListener("click", function () {
+  action = blockplus.innerHTML;
+  console.log(action, "click +");
+});
+
+blocksmooth.addEventListener("click", function () {
+  action = blocksmooth.innerHTML;
+  console.log(action, "click =");
+});
+
+blockseven.addEventListener("click", function () {
+  number = blockseven.innerHTML;
+  console.log(number, "click 7");
+});
+
+blockeight.addEventListener("click", function () {
+  number = blockeight.innerHTML;
+  console.log(number, "click 8");
+});
+
+blocknine.addEventListener("click", function () {
+  number = blocknine.innerHTML;
+  console.log(number, "click 9");
+});
+
+blockfour.addEventListener("click", function () {
+  number = blockfour.innerHTML;
+  console.log(number, "click 4");
+});
+
+blockfive.addEventListener("click", function () {
+  number = blockfive.innerHTML;
+  console.log(number, "click 5");
+});
+
+blocksix.addEventListener("click", function () {
+  number = blocksix.innerHTML;
+  console.log(number, "click 6");
+});
+
+blocknone.addEventListener("click", function () {
+  number = blocknone.innerHTML;
+  console.log(number, "click 1");
+});
+
+blocktwo.addEventListener("click", function () {
+  number = blocktwo.innerHTML;
+  console.log(number, "click 2");
+});
+
+blockthree.addEventListener("click", function () {
+  number = blockthree.innerHTML;
+  console.log(number, "click 3");
+});
+
+blockzero.addEventListener("click", function () {
+  number = blockzero.innerHTML;
+  console.log(number, "click 0");
+});
+
+function sumNumbers(a, b) {
+  const sum = a + b;
+  return sum;
 }
-console.log(divNumbers(20,4));
+console.log(sumNumbers(10, 10));
+
+function subNumbers(a, b) {
+  const sum = a - b;
+  return sum;
+}
+console.log(subNumbers(10, 10));
+
+function multipNumbers(c, b) {
+  const sum = c * b;
+  return sum;
+}
+console.log(multipNumbers(5, 7));
+
+function divNumbers(d, s) {
+  const sum = d / s;
+  return sum;
+}
+console.log(divNumbers(20, 4));
+
+function calculation() {
+}
+
+
