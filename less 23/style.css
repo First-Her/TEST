@@ -1,0 +1,45 @@
+.main {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(26, 26, 46);
+  border-radius: 50px 50px 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.displey {
+  width: 200px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 30px 30px 30px 30px;
+  margin-bottom: 20px;
+  color: aliceblue;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonsp {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(206, 238, 23);
+  border-radius: 60px 60px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+.buttonsm {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(175, 5, 5);
+  border-radius: 0px 0px 60px 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  font-weight: bold;
+}
