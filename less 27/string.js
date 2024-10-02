@@ -58,37 +58,22 @@ const result =
   uzerName.slice(0, 1).toUpperCase() +
   uzerName.slice(1, 3) +
   uzerName.slice(3, 4).toUpperCase();
-console.log(result);
 
 const greetings = "Привет";
-console.log(greetings);
 
 const wordOne = greetings.slice(0, 7);
-console.log(wordOne);
 
 const wordP = greetings[0].toLowerCase();
-console.log(wordP);
 
 const wordE = greetings[4];
-const wordT = greetings[5]
+const wordT = greetings[5];
 
-const wordTwo = wordP + "a" + "к" + wordE + wordT + ",";
-console.log(wordTwo);
+const wordTwo = wordP + "a" + "к" + wordE + wordT;
 
 const wordThree =
-  wordP +
-  greetings[2] +
-  "с" +
-  wordT +
-  "о" +
-  "л" +
-  wordE +
-  wordT +
-  ",";
-console.log(wordThree);
+  wordP + greetings[2] + "с" + wordT + "о" + "л" + wordE + wordT;
 
 const wordFour = wordP + wordE + "ч" + wordE + "н" + wordE + "г";
-console.log(wordFour);
 
-const rezultGreetings = `"${wordOne} ${wordTwo} ${wordThree} ${wordFour}"`;
+const rezultGreetings = `"${wordOne} ${wordTwo}, ${wordThree}, ${wordFour}"`;
 console.log(rezultGreetings);
