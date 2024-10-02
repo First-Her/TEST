@@ -66,31 +66,29 @@ console.log(greetings);
 const wordOne = greetings.slice(0, 7);
 console.log(wordOne);
 
-const wordTwo =
-  greetings[0].toLowerCase() + "a" + "к" + greetings[4] + greetings[5] + ",";
+const wordP = greetings[0].toLowerCase();
+console.log(wordP);
+
+const wordE = greetings[4];
+const wordT = greetings[5]
+
+const wordTwo = wordP + "a" + "к" + wordE + wordT + ",";
 console.log(wordTwo);
 
 const wordThree =
-  greetings[0].toLowerCase() +
+  wordP +
   greetings[2] +
   "с" +
-  greetings[5] +
+  wordT +
   "о" +
   "л" +
-  greetings[4] +
-  greetings[5] +
+  wordE +
+  wordT +
   ",";
 console.log(wordThree);
 
-const wordFour =
-  greetings[0].toLowerCase() +
-  greetings[4] +
-  "ч" +
-  greetings[4] +
-  "н" +
-  greetings[4] +
-  "г";
+const wordFour = wordP + wordE + "ч" + wordE + "н" + wordE + "г";
 console.log(wordFour);
 
-const rezultGreetings =  `"${wordOne} ${wordTwo} ${wordThree} ${wordFour}"`;
+const rezultGreetings = `"${wordOne} ${wordTwo} ${wordThree} ${wordFour}"`;
 console.log(rezultGreetings);
