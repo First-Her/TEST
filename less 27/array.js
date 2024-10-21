@@ -90,29 +90,49 @@
 // const srtd = sort([1,2,4]);
 // console.log(srtd)
 
-const list = ["1", 2, 32, "text"];
-const numberlist = []
-const textlist = []
+// const list = ["1", 2, 32, "text"];
+// const numberlist = []
+// const textlist = []
 
-const sof = soft(list)
-console.log(sof)
-function soft(arr) {
+// const sof = soft(list)
+// console.log(sof)
+// function soft(arr) {
 
-for (let i = 0; i < arr.length; i++) {
-    if (typeof arr[i] === 'number') {
-        numberlist.push(arr[i]);
-   } else if (typeof arr[i] === 'string') {
-    textlist.push(arr[i]);
-   }
-}
-return [textlist, numberlist];
+// for (let i = 0; i < arr.length; i++) {
+//     if (typeof arr[i] === 'number') {
+//         numberlist.push(arr[i]);
+//    } else if (typeof arr[i] === 'string') {
+//     textlist.push(arr[i]);
+//    }
+// }
+// return [textlist, numberlist];
 
-}
-const sofo = soft([1, 4, 5])
-console.log(sofo)
+// }
+// const sofo = soft([1, 4, 5])
+// console.log(sofo)
 
 
 //console.log(numberlist);
 //console.log(textlist);
 
+
+
+// const list = ["1", 2, 32, "text"];
+// let result = [];
+// function onList(list) {
+
+// for (let i = 0; i < list.length; i++) {
+//   if (list[i] === 32) {
+//     result.push(0);
+//   } else {
+//     result.push(list[i]);
+//   }
+// }
+// return result
+// }
+// const newList = onList(list)
+// console.log(newList)
+
+// const tdList = onList([2,3,5])
+// console.log(tdList)
 
