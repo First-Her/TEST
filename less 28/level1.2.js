@@ -1,25 +1,45 @@
+// №1
+// Дано число. Выведите в консоль первую цифру этого числа.
 // function conclusion(num) {
 //     return num.toString()[0];
 //   }
 //   console.log(conclusion(56));
 
+// №2
+// Дано число. Выведите в консоль последнюю цифру этого числа.
 // function conclusion(num) {
-//     return Math.floor(Math.abs(num) / 100) % 10; есть дохуя вопросов!!! спизжено
+//     return num.toString()[num.toString().length - 1]
 //   }
-//   console.log(conclusion(333));
+//   console.log(conclusion(136727463));
 
+// №3
+// Дано число. Выведите в консоль сумму первой и последней цифры этого числа.
 // function summa(number) {
 //     const numStr = number.toString();
-//     return parseInt(numStr[0]) + parseInt(numStr[numStr.length - 1]);
+//     return +numStr[0] + +(numStr[numStr.length - 1]);
 //   }
-//   console.log(summa(45));
+//   console.log(summa(235));
 
+// №4
+// Дано число. Выведите количество цифр в этом числе.
 // function quantity(number) {
 //     return number.toString().length;
 //   }
-//   console.log(quantity(245));
+//   console.log(quantity(123456));
 
+// №5
+// Даны два числа. Проверьте, что первые цифры этих чисел совпадают.
 // function quantity(numberOne, numberTwo) {
 //     return numberOne.toString()[0] === numberTwo.toString()[0]
 //   }
 //   console.log(quantity(245, 233));
+//   console.log(quantity(321, 531));
+
+
+
+
+
+
+
+
+
