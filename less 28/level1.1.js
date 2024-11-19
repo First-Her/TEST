@@ -1,31 +1,29 @@
+// #1 Дано число. Проверьте, отрицательное оно или нет. Выведите об этом информацию в консоль.
 // function Number(num) {
-//     if (num < 0) {
-//         console.log(`Число ${num} является отрицательным.`);
-//     } else {
-//         console.log(`Число ${num} не является отрицательным.`);
-//     }
+//      num < 0
+//        ? console.log(`Число ${num} является отрицательным.`)
+//        : console.log(`Число ${num} не является отрицательным.`);
 // }
-
 // Number(-5);
 // Number(0);
 // Number(5);
 
-// let a = 'дота';
-// console.log(a.length, 'длина строки а')
+// #2 Дана строка. Выведите в консоль длину этой строки.
+// let textDota = 'дота';
+// console.log(textDota.length, 'длина строки textDota')
 
-// let a = 'дота';
-// let result = a.slice(3);
+// #3 Дана строка. Выведите в консоль последний символ строки.
+// let textDota = 'дота';
+// let result = textDota.at(-1);
 // console.log(result)
 
+// #4 Дано число. Проверьте, четное оно или нет.
 // function isEven(num) {
 //     return num % 2 === 0;
 //   }
-
-//   function isOdd(num) {
-//     return num % 2 !== 0;
-//   }
 //   console.log(isEven(4));
 
+// #5 Даны два слова. Проверьте, что первые буквы этих слов совпадают.
 // let textOne = 'яблоко'
 // let  textTwo = "яблоня"
 
@@ -34,12 +32,9 @@
 // }
 // console.log(prov('яблоко', "яблоня"));
 
+// #6 Дано слово. Получите его последнюю букву. Если слово заканчивается на мягкий знак, то получите предпоследнюю букву.
 // function examination(text) {
-//   let letter = text.slice(-1)[0];
-//   if (letter === "ь") {
-//     return text.slice(-2)[0];
-//   }
-//   return letter;
+//   let letter = text.at(-1);
+//   return letter === "ь" ? text.at(-2) : letter;
 // }
-
-// console.log(examination('собака'));
+// console.log(examination("собакь"));

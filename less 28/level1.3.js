@@ -1,4 +1,7 @@
-// function definition(string) {
-//     return string.slice(-2)[0]
-// }
-// console.log(definition("клава"));
+function definition(string) {
+    if (string.length >[1]) {
+        return string.at(-2);
+    }
+    return string;
+}
+console.log(definition("м"));

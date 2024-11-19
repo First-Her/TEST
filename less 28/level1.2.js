@@ -20,6 +20,6 @@
 //   console.log(quantity(245));
 
 // function quantity(numberOne, numberTwo) {
-//     return numberOne.toString().length === numberTwo.toString().length;
+//     return numberOne.toString()[0] === numberTwo.toString()[0]
 //   }
 //   console.log(quantity(245, 233));
