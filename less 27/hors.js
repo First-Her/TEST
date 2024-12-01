@@ -9,15 +9,15 @@
 // Например func('свинья') => 'сви   нья'
 
 
-const hors = 'лошадь'
-const computer = 'компьютер'
-const pig = 'свинья'
+// const hors = 'лошадь'
+// const computer = 'компьютер'
+// const pig = 'свинья'
 
-function separator(text){
-    const rezult = text.slice(0,3) + '   ' + text.slice(3);
-    console.log(rezult) 
-}
+// function separator(text){
+//     const rezult = text.slice(0,3) + '   ' + text.slice(3);
+//     console.log(rezult) 
+// }
 
-separator(hors);
-separator(computer);
-separator(pig);
+// separator(hors);
+// separator(computer);
+// separator(pig);
