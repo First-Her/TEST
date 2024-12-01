@@ -46,3 +46,19 @@
 // console.log(listNumber);
 // let revrNunber = listNumber.join("");
 // console.log(Number(revrNunber));
+
+// №4
+// Дано некоторое число:
+// 12345
+// Найдите сумму цифр этого числа.
+// let sunNum = 0;
+// let number = 12345;
+// let listNumber = [];
+// let stringNumber = number.toString()
+// for (let i = 0; i < stringNumber.length; i++) {
+//     sunNum = sunNum + Number(stringNumber[i])
+//     // listNumber.push(sunNum)
+
+// }
+// console.log(sunNum)
+// // console.log(listNumber)
