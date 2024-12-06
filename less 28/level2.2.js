@@ -8,7 +8,7 @@
 // console.log(result);
 
 // №2
-// Дан массив с числами. Оставьте в нем только положительные числа.
+// Дан массив с числами. Оставьте в нем только положительные числа.  не могу в этом же массиве оставить ?!!!!!
 // let listNumber = [1, -2, -3, -4, 5, -6];
 // let positive = [];
 // for (let i = 0; i < listNumber.length; i++) {
@@ -18,3 +18,25 @@
 // }
 // console.log(positive);
 
+// №3
+// Дана строка. Удалите предпоследний символ из этой строки.
+// let str = 'abcde'
+// console.log(str.slice(0,-1))
+
+// №4
+// Дан некоторый массив, например, вот такой:
+// [1, 2, 3, 4, 5, 6]
+// Поделите сумму первой половины элементов этого массива на сумму второй половины элементов. есть вопросы по Slice , и по конструкции?!!!
+// let listNumber = [1, 2, 3, 4, 5, 6];
+// let sumOne = 0;
+// let sumTwo = 0;
+// for (let i = 0; i < listNumber.slice(3).length; i++) {
+//     sumOne += listNumber[i]
+// }
+// console.log(sumOne)
+// for (let i = 0; i < listNumber.slice(1).length; i++) {
+//     sumTwo += listNumber[i]
+// }
+// console.log(sumTwo)
+// let result = sumOne / sumTwo;
+// console.log(result)
