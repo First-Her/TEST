@@ -37,10 +37,10 @@
 // 	day: '31',
 // }
 
-let uzerInfo = {
-  year: "2025",
-  month: "12",
-  day: "31",
-};
-console.log(uzerInfo)
-console.log(uzerInfo.year)
+// let uzerInfo = {
+//   year: "2025",
+//   month: "12",
+//   day: "31",
+// };
+// console.log(uzerInfo)
+// console.log(uzerInfo.year)
