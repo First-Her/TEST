@@ -48,11 +48,12 @@
 // // Переведите в верхний регистр все нечетные буквы этой строки. В нашем случае должно получится следующее: ЗАКИПЕЛ!!!!!
 // // 'AbCdE'
 
-// let str = "abcde";
-// for (let i = 0; i < str.length; i++) {
-//   if (i % 1 == 0) str.toUpperCase(i) 
-//   }
-
+const str = "abcde";
+for (let i = 0; i < str.length; i++) {
+  if (i % 2 !== 0) { str.toUpperCase() 
+  }
+  }
+  console.log(str)
 
 
 // №5
