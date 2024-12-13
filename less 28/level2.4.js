@@ -35,30 +35,44 @@
 // Дано число. Выведите в консоль количество четных цифр в этом числе.
 // let num = 10;
 // console.log(num % 2 === 0);
-
+// let result = 0;
 // for (let i = 2; i <= 10; i++) {
 //   if (i % 2 === 0) {
-//     console.log(i);
+//     result++;
 //   }
 // }
+// console.log(result)
 
 // // №4
 // // Дана некоторая строка:
 // // 'abcde'
-// // Переведите в верхний регистр все нечетные буквы этой строки. В нашем случае должно получится следующее: ЗАКИПЕЛ!!!!!
+// // Переведите в верхний регистр все нечетные буквы этой строки. В нашем случае должно получится следующее:
 // // 'AbCdE'
 
-const str = "abcde";
-for (let i = 0; i < str.length; i++) {
-  if (i % 2 !== 0) { str.toUpperCase() 
-  }
-  }
-  console.log(str)
-
+// const str = "abcde";
+// let result = ''
+// for (let i = 0; i < str.length; i++) {
+//   if (i % 2 === 0) {
+//     result += str[i].toUpperCase()
+//   } else {
+//     result += str[i]
+//   }
+// }
+// console.log(result)
+// console.log(str.toUpperCase());
+// console.log(str);
 
 // №5
 // Дана некоторая строка со словами:
 // 'aaa bbb ccc'
-// Сделайте заглавным первый символ каждого слова в этой строке. В нашем случае должно получится следующее: ЧУТЬ ПОЗЖЕ
+// Сделайте заглавным первый символ каждого слова в этой строке. В нашем случае должно получится следующее:
 // 'Aaa Bbb Ccc'
+// испозовать сплит для создания трех слов.
 
+// const str = "Aaa Bbb Ccc";
+// let arr = str.split(" ");
+// let result = " ";
+// for (let i = 0; i < arr.length; i++) {
+//   result += arr[i].at(0).toUpperCase() + arr[i] + " ";
+// }
+// console.log(result);
