@@ -1,47 +1,47 @@
-const a = ' сала"м"';
-let b = "досвидания";
-let c = `привет 
-${a} 
-${b}`;
+// const a = ' сала"м"';
+// let b = "досвидания";
+// let c = `привет 
+// ${a} 
+// ${b}`;
 //console.log(a.length, "длина a");
 //console.log(b.length, "длина b");
 //console.log(a);
 //console.log(c);
 
-const firstWord = "ты";
-const secondWord = "сегодня";
-const thirdWord = "ел";
+// const firstWord = "ты";
+// const secondWord = "сегодня";
+// const thirdWord = "ел";
 
-const firstSentence = setProposal(firstWord, thirdWord, secondWord);
-//console.log(firstSentence);
+// const firstSentence = setProposal(firstWord, thirdWord, secondWord);
+// //console.log(firstSentence);
 
-const secondSentence = setProposal(thirdWord, firstWord, secondWord);
-//console.log(secondSentence);
+// const secondSentence = setProposal(thirdWord, firstWord, secondWord);
+// //console.log(secondSentence);
 
-const thirdSentence = setProposal(secondWord, thirdWord, firstWord);
-//console.log(thirdSentence);
+// const thirdSentence = setProposal(secondWord, thirdWord, firstWord);
+// //console.log(thirdSentence);
 
-function setProposal(textFirst, textSecond, textThird) {
-  const text = textFirst + ' ' + textSecond + ' ' + textThird + '?';
-  return text;
+// function setProposal(textFirst, textSecond, textThird) {
+//   const text = textFirst + ' ' + textSecond + ' ' + textThird + '?';
+//   return text;
 
-}
-setProposal(2,3,6);
-//console.log(setProposal(2,3,6))
+// }
+// setProposal(2,3,6);
+// //console.log(setProposal(2,3,6))
 
-const dragee = "Тиктак";
-const training =
-  dragee[0] +
-  "р" +
-  "е" +
-  "н" +
-  dragee[1] +
-  "р" +
-  "о" +
-  "в" +
-  dragee[5] +
-  dragee[4];
-//console.log(training);
+// const dragee = "Тиктак";
+// const training =
+//   dragee[0] +
+//   "р" +
+//   "е" +
+//   "н" +
+//   dragee[1] +
+//   "р" +
+//   "о" +
+//   "в" +
+//   dragee[5] +
+//   dragee[4];
+// //console.log(training);
 
 const funny = "ПрИкОлДеС";
 //console.log(funny.slice(0,6).toUpperCase() + funny.slice(7,10).toLowerCase());

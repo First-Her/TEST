@@ -21,7 +21,8 @@
 // №3
 // Дана строка. Удалите предпоследний символ из этой строки.
 // let str = 'abcde'
-// console.log(str.slice(0,-1))
+// let textRes = str.slice(0,-2) + str.slice(-1);
+// console.log(textRes)
 
 // №4
 // Дан некоторый массив, например, вот такой:
@@ -30,11 +31,11 @@
 // let listNumber = [1, 2, 3, 4, 5, 6];
 // let sumOne = 0;
 // let sumTwo = 0;
-// for (let i = 0; i < listNumber.slice(3).length; i++) {
+// for (let i = 0; i < listNumber.length / 2; i++) {
 //     sumOne += listNumber[i]
 // }
 // console.log(sumOne)
-// for (let i = 0; i < listNumber.slice(1).length; i++) {
+// for (let i = listNumber.length - 1; i >= listNumber.length / 2; i--) {
 //     sumTwo += listNumber[i]
 // }
 // console.log(sumTwo)

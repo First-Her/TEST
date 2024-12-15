@@ -1,14 +1,12 @@
 // №1
 // Дана некоторая строка с буквами и цифрами. Получите позицию первой цифры в этой строке.
 // let str = "abd335e";
-// function examination(str) {
-//   for (let i = 0; i < str.length; i++) {
-//     if (Number(str[i])) {
-//       return i;
-//     }
+// for (let i = 0; i < str.length; i++) {
+//   if (Number(str[i])) {
+//     console.log(i);
+//     break;
 //   }
 // }
-// console.log(examination(str))
 
 // let str = "abd335e";
 // for (let i = 0; i < str.length; i++) {
@@ -36,7 +34,7 @@
 // let num = 10;
 // console.log(num % 2 === 0);
 // let result = 0;
-// for (let i = 2; i <= 10; i++) {
+// for (let i = 0; i <= 10; i++) {
 //   if (i % 2 === 0) {
 //     result++;
 //   }
@@ -75,4 +73,4 @@
 // for (let i = 0; i < arr.length; i++) {
 //   result += arr[i].at(0).toUpperCase() + arr[i] + " ";
 // }
-// console.log(result);
+// console.log(result); переделать

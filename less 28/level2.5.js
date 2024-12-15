@@ -25,6 +25,24 @@
 // }
 // console.log(result);
 
+// №2
+// Дана некоторая строка:
+// 'abcdefg'
+// Удалите из этой строки каждый третий символ. В нашем случае должно получится следующее:
+// 'abdeg'
+// let str = "abcdefg";
+// let result = "";
+// let check = 1;
+// for (let i = 0; i < str.length; i++) {
+//   if (check !== 3) {
+//     result += str[i];
+//     check++;
+//   } else {
+//     check = 1;
+//   }
+// }
+// console.log(result);
+
 // №3
 // Дан некоторый массив, например, вот такой:
 // [1, 2, 3, 4, 5, 6]
@@ -60,4 +78,3 @@
 // console.log(sumEven);
 // console.log(sumUneven);
 // console.log(result);
-
