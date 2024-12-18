@@ -15,3 +15,13 @@
 // Напишите код, который перевернет числа в этом массиве по следующему принципу:
 // [321, 654, 987]
 // let num = [123, 456, 789]
+
+// let arrNum = [123, 456, 789];
+// const res = [];
+
+// for (let i = 0; i < arrNum.length; i++) {
+//     const strNum = String(arrNum[i])
+//     const arrRes1 = +strNum.split('').reverse().join('');
+//     res.push(arrRes1)
+// }
+// console.log(res)
