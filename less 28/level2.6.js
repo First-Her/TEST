@@ -25,3 +25,55 @@
 //     res.push(arrRes1)
 // }
 // console.log(res)
+
+// №3
+// Дана некоторая строка с числом:
+// '1234567'
+// Отделите тройки цифр пробелами, начиная с конца числа. В нашем случае должно получится следующее:
+// '1 234 567'
+
+// let str = "1234567";
+// let result = " ";
+// let calcul = 0;
+
+// for (let i = str.length - 1; i >= 0; i--) {
+//   result = str[i] + result;
+//   calcul++;
+
+//   if (calcul % 3 === 0) {
+//     result = " " + result;
+//   }
+// }
+
+// console.log(result);
+
+// №4
+// Дана некоторая строка:
+// 'AbCdE'
+// Смените регистр букв этой строки на противоположный. В нашем случае должно получится следующее:
+// 'aBcDe'
+
+// let str = "AbCdE";
+// let arr = str.split("");
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] === arr[i].toUpperCase()) {
+//     arr[i] = arr[i].toLowerCase();
+//   } else {
+//     arr[i] = arr[i].toUpperCase();
+//   }
+// }
+// let result = arr.join("");
+// console.log(result);
+
+// №6
+// Дана некоторая строка со словами:
+// 'aaa bbb ccc eee fff'
+// Сделайте заглавным первый символ каждого второго слова в этой строке. В нашем случае должно получится следующее:
+// 'aaa Bbb ccc Eee fff'
+// let str = "aaa bbb ccc eee fff";
+// let arr = str.split(" ");
+// for (let i = 1; i < arr.length; i += 2) {
+//     arr[i] = arr[i][0].toUpperCase() + arr[i].slice(1)
+// }   
+// let result = arr.join(" ")
+// console.log(result)

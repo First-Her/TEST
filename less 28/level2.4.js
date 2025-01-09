@@ -67,10 +67,13 @@
 // 'Aaa Bbb Ccc'
 // испозовать сплит для создания трех слов.
 
-// const str = "Aaa Bbb Ccc";
+// const str = "aaa bbb ccc";
 // let arr = str.split(" ");
-// let result = " ";
+// let result = "";
 // for (let i = 0; i < arr.length; i++) {
-//   result += arr[i].at(0).toUpperCase() + arr[i] + " ";
+//   result += arr[i].at(0).toUpperCase() + arr[i].slice(1) + " ";
+//   result = result.trimEnd() + ' ';
 // }
-// console.log(result); переделать
+
+// console.log(result);
+// console.log(result.length);

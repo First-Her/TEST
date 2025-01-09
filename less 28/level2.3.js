@@ -12,6 +12,34 @@
 // Дана некоторая строка. Найдите позицию третьего нуля в строке.
 // хз не разобрался оч сложно
 
+// let str = "sash0sdsd0dsds0";
+// let calcul = 0;
+// let result = 0;
+// for (let i = 0; i < str.length; i++) {
+//   if (str[i] === "0") {
+//     calcul++;
+//   }
+//   if (calcul === 3) {
+//     result = i
+//   }
+// }
+// console.log(result);
+
+// let str = "sash0sdsd0dsds0";
+// let calcul = 0;
+// let result = 0;
+
+// for (let i = 0; i < str.length; i++) {
+//   if (str[i] === "0") {
+//     calcul++;
+//   }
+//   if (calcul === 2) {
+//     result = i;
+//     break;
+//   }
+// }
+// console.log(result);
+
 // №3
 // Даны числа, разделенные запятыми:
 // '12,34,56'
