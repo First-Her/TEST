@@ -12,7 +12,7 @@
 // }
 // console.log(result);
 
-// let num = 1823456;
+// let num = 1283456;
 // let arr = Array.from(String(num), Number);
 // let result = true;
 // for (let i = 0; i < arr.length; i++) {
