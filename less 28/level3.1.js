@@ -51,6 +51,12 @@
 //   [4, 3, 1, 5, 2],
 // ];
 
+// for(let i = 0; i < arr.length; i++) {
+//     arr[i].sort((a, b) => a - b)
+// }
+// console.log(arr)
+
+
 // №4
 // Даны два массива:
 // let arr1 = [1, 2, 3];
@@ -62,8 +68,8 @@
 // console.log(arr1.length)
 
 // for (let i = 0; i < arr2.length; i++) {
-//    if (arr2.length > 3) {
-//     arr2 = arr2.slice(0, 3)
+//    if (arr2.length > arr1.length) {
+//     arr2 = arr2.slice(0, arr1.length)
 //    }
 // }
 // console.log(arr2)
